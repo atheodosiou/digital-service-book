@@ -1,4 +1,5 @@
 export const environment = {
-    serverUrl: 'http://localhost:3000/api',
-    googleClientId: '647621593846-2e2q95e4dcdjmvs47k077e61vktg7otp.apps.googleusercontent.com'
+  serverUrl: 'http://localhost:3000/api',
+  googleClientId:
+    '204263000225-eegfeh1jfiv17q9dj9rip869gfs1898b.apps.googleusercontent.com',
 };
