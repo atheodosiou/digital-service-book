@@ -1,10 +1,21 @@
 <aside class="h-full w-full border-r border-gray-200 bg-slate-900">
   <!-- Brand -->
-  <div class="h-16 flex items-center justify-start font-bold text-lg text-white border-b border-slate-800 px-4 gap-3">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-      class="size-6">
-      <path stroke-linecap="round" stroke-linejoin="round"
-        d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z" />
+  <div
+    class="h-16 flex items-center justify-start font-bold text-lg text-white border-b border-slate-800 px-4 gap-3"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      class="size-6"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z"
+      />
     </svg>
     GarageMate
   </div>
@@ -12,57 +23,101 @@
   <!-- Navigation -->
   <nav class="py-4 flex flex-col gap-2">
     <!-- Dashboard -->
-    <a routerLink="/dashboard" routerLinkActive="bg-slate-950 text-brand-primary" (click)="select.emit()"
-      class="flex items-center gap-3 px-4 py-2 rounded font-medium text-gray-100 hover:bg-slate-950 hover:text-white transition">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-        class="size-6">
-        <path stroke-linecap="round" stroke-linejoin="round"
-          d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6" />
+    <a
+      routerLink="/dashboard"
+      routerLinkActive="bg-slate-950 text-brand-primary"
+      (click)="select.emit()"
+      class="flex items-center gap-3 px-4 py-2 rounded font-medium text-gray-100 hover:bg-slate-950 hover:text-white transition"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="size-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6"
+        />
       </svg>
       Dashboard
     </a>
 
-    <!-- Venues -->
-    <!-- <a routerLink="/venue" routerLinkActive="bg-slate-950 text-brand-primary" (click)="select.emit()"
-      class="flex items-center gap-3 px-4 py-2 rounded font-medium text-gray-100 hover:bg-slate-950 hover:text-white transition">
-      <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-        stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round"
-          d="M3 21V7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14M9 21v-6h6v6" />
+    <!-- Vhicles -->
+    <a
+      routerLink="/vehicles"
+      routerLinkActive="bg-slate-950 text-brand-primary"
+      (click)="select.emit()"
+      class="flex items-center gap-3 px-4 py-2 rounded font-medium text-gray-100 hover:bg-slate-950 hover:text-white transition"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="size-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 0 0-10.026 0 1.106 1.106 0 0 0-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"
+        />
       </svg>
-      Venue
-    </a> -->
 
-    <!-- Sections (active venue context required) -->
-    <!-- <a routerLink="/menu-sections" routerLinkActive="bg-slate-950 text-brand-primary" (click)="select.emit()"
-      class="flex items-center gap-3 px-4 py-2 rounded font-medium text-gray-100 hover:bg-slate-950 hover:text-white transition">
-      <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-        stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+      Vehicles
+    </a>
+
+    <a
+      routerLink="/service-types"
+      routerLinkActive="bg-slate-950 text-brand-primary"
+      (click)="select.emit()"
+      class="flex items-center gap-3 px-4 py-2 rounded font-medium text-gray-100 hover:bg-slate-950 hover:text-white transition"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="size-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 0 0 4.486-6.336l-3.276 3.277a3.004 3.004 0 0 1-2.25-2.25l3.276-3.276a4.5 4.5 0 0 0-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437 1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008Z"
+        />
       </svg>
-      Sections
-    </a> -->
+
+      Service Types
+    </a>
 
     <!-- Items (active section context required) -->
-    <!-- <a routerLink="/menu-items" routerLinkActive="bg-slate-950 text-brand-primary" (click)="select.emit()"
-      class="flex items-center gap-3 px-4 py-2 rounded font-medium text-gray-100 hover:bg-slate-950 hover:text-white transition">
-      <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-        stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+    <a
+      routerLink="/service-records"
+      routerLinkActive="bg-slate-950 text-brand-primary"
+      (click)="select.emit()"
+      class="flex items-center gap-3 px-4 py-2 rounded font-medium text-gray-100 hover:bg-slate-950 hover:text-white transition"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="size-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z"
+        />
       </svg>
-      Items
-    </a> -->
 
-    <!-- Theme settings -->
-    <!-- <a routerLink="/theme" routerLinkActive="bg-slate-950 text-brand-primary" (click)="select.emit()"
-      class="flex items-center gap-3 px-4 py-2 rounded font-medium text-gray-100 hover:bg-slate-950 hover:text-white transition">
-      <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-        stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round"
-          d="M12 6a6 6 0 0 0 0 12a6 6 0 0 0 0-12zm0 0V2m0 20v-4m4.24-1.76l2.83 2.83M3.93 3.93l2.83 2.83M6 12H2m20 0h-4M6.76 17.24l-2.83 2.83m16.97-16.97l-2.83 2.83" />
-      </svg>
-      Theme
-    </a> -->
-
+      Service Records
+    </a>
   </nav>
 </aside>

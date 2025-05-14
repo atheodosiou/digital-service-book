@@ -15,8 +15,29 @@ export const routes: Routes = [
       {
         path: 'dashboard',
         loadComponent: () =>
-          import('./features/dashbaord/dashbaord.component').then(
-            (c) => c.DashbaordComponent
+          import('./features/dashboard/dashboard.component').then(
+            (c) => c.DashboardComponent
+          ),
+      },
+      {
+        path: 'vehicles',
+        loadComponent: () =>
+          import('./features/vehicles/vehicles.component').then(
+            (c) => c.VehiclesComponent
+          ),
+      },
+      {
+        path: 'service-types',
+        loadComponent: () =>
+          import('./features/service-types/service-types.component').then(
+            (c) => c.ServiceTypesComponent
+          ),
+      },
+      {
+        path: 'service-records',
+        loadComponent: () =>
+          import('./features/service-records/service-records.component').then(
+            (c) => c.ServiceRecordsComponent
           ),
       },
     ],
