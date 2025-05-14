@@ -11,7 +11,7 @@ import { ToastModule } from 'primeng/toast';
   styleUrl: './app.component.scss',
 })
 export class AppComponent implements OnInit {
-  title = 'QRestro';
+  title = 'Garage Mate';
   private readonly authService = inject(AuthService);
 
   ngOnInit(): void {
